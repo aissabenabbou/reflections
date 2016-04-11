@@ -1,6 +1,12 @@
-What happens when you initialize a repository? Why do you need to do it?
+What happens when you initialise a repository? Why do you need to do it?
 -a git directory get initiated, it'd contain references for history of commits .
 -when ever you want to track versions of projects .
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
--staging area is the place we put files we want to commit, so before we commit files we put them their and we are sure about them we commit .
+-staging area is the place we put files we want to commit, so before we commit files we put them there and when we are sure about them we commit .
+
+-How can you use the staging area to make sure that you have one commit per logical change ?
+-i'd before i commit i'd use 'git diff --staged' to see the difference i made from the last commit then i decide to commit or not .
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+-when i would like to do a huge change , try something new and very dangerous it would help me focus on it keeping my master branch safe . 
