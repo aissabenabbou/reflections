@@ -3,3 +3,8 @@ When would you want to use a remote repository rather than keeping all your work
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 -manually mean right to work on your file freely before accepting any new changes that may confuse you or harm you work process .
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+-forks : you may use it when you want to commit changes to a repo you don't have permission to commit changes to .
+-clones : you may use this when you want to work on certain repo on your local environment .
+-branches : you may use this when you want to make changes that you think that they should not be in the master branch, let's say you want to test a new function .
