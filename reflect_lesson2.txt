@@ -16,3 +16,10 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 -the changes commit-ed to each branch will unify as one branch .
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+-pros of merging automatically : fast and very accurate
+-cons of merging automatically : may generate some bugs since two diffrent works are going to interact with each other.
+
+-pros of merging manually : detect and avoid and fix bugs before doing anything , so the commit will be logical .
+-cons of merging manually : it is not gonna be easy is the changes are too big and complex . 
