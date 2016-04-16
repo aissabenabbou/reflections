@@ -8,3 +8,6 @@ Describe the differences between forks, clones, and branches. When would you use
 -forks : you may use it when you want to commit changes to a repo you don't have permission to commit changes to .
 -clones : you may use this when you want to work on certain repo on your local environment .
 -branches : you may use this when you want to make changes that you think that they should not be in the master branch, let's say you want to test a new function .
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+-it gives us all the informations we need as last changes and branches  to modify our project .
